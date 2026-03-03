@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"F:/TrainDemo - Copy/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/JD/DLM01CI292JNOC0UUVIKUH.uasset",
+				"F:/TrainDemo - Copy/Express-13-Prototype/Content/BluePrints/BPC_Dialogue.uasset",
+				"F:/TrainDemo - Copy/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/CO/ZUMMSQOXBFZFF86D860605.uasset",
+				"F:/TrainDemo - Copy/Express-13-Prototype/Content/Widget/W_Dialogue.uasset",
 				"E:/DES207/TrainDemo/Content/Meshes/TrainChair.uasset",
 				"E:/DES207/TrainDemo/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/L0/QLTKL7OGB6G6JI78M2SS9X.uasset",
 				"E:/DES207/TrainDemo/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/TC/K1ZXYJMZMUANYE60UN4TS0.uasset",
@@ -160,7 +164,6 @@
 				"C:/Users/cammy/OneDrive/Documents/GitHub/Express-13-Prototype/Content/FirstPerson/_GENERATED/cammy/Box_559EA081.uasset",
 				"C:/Users/cammy/OneDrive/Documents/GitHub/Express-13-Prototype/Content/FirstPerson/_GENERATED/cammy/Combined_958538D2.uasset",
 				"C:/Users/cammy/OneDrive/Documents/GitHub/Express-13-Prototype/Content/Input/WBP_HUD.uasset",
-				"F:/TrainDemo - Copy/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/JD/DLM01CI292JNOC0UUVIKUH.uasset",
 				"D:/UnrealProjects/DES 503/PROTOTYPE/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/CO/ZUMMSQOXBFZFF86D860605.uasset",
 				"F:/TrainDemo - Copy/Content/Input/IMC_Default.uasset",
 				"F:/TrainDemo - Copy/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
