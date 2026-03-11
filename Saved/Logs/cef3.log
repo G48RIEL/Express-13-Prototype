@@ -1,1 +1,18 @@
-[0128/121009.512:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
+[0311/000414.466:ERROR:os_crypt_win.cc(93)] Failed to decrypt: Key not valid for use in specified state. (0x8009000B)
+[0311/000415.948:WARNING:value_store_frontend.cc(45)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[0311/000418.118:ERROR:entry_impl.cc(1075)] No file for 80000015
+[0311/000418.219:ERROR:entry_impl.cc(1075)] No file for 80000022
+[0311/000418.240:ERROR:entry_impl.cc(1075)] No file for 80000017
+[0311/000418.240:ERROR:entry_impl.cc(1075)] No file for 80000024
+[0311/000418.240:ERROR:entry_impl.cc(1075)] No file for 80000023
+[0311/000418.240:ERROR:entry_impl.cc(1075)] No file for 80000021
+[0311/000420.143:ERROR:entry_impl.cc(1075)] No file for 80000032
+[0311/000420.144:ERROR:entry_impl.cc(1075)] No file for 8000002a
+[0311/000420.144:ERROR:entry_impl.cc(1075)] No file for 80000031
+[0311/000420.149:ERROR:entry_impl.cc(1075)] No file for 80000033
+[0311/000420.149:ERROR:entry_impl.cc(1075)] No file for 8000003d
+[0311/000420.156:ERROR:entry_impl.cc(1075)] No file for 8000002c
+[0311/000420.157:ERROR:entry_impl.cc(1075)] No file for 80000040
+[0311/000420.157:ERROR:entry_impl.cc(1075)] No file for 8000003e
+[0311/000420.162:ERROR:entry_impl.cc(1075)] No file for 8000002e
+[0311/000614.689:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled

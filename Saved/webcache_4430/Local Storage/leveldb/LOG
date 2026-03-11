@@ -1,2 +1,8 @@
-2026/01/28-12:08:09.478 9694 Creating DB D:/DES207/TrainDemo/Saved/webcache_4430\Local Storage\leveldb since it was missing.
-2026/01/28-12:08:09.625 9694 Reusing MANIFEST D:/DES207/TrainDemo/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2026/03/11-00:04:14.617 42a4 Creating DB D:/UnrealProjects/DES 503/PROTOTYPE/Express-13-Prototype/Saved/webcache_4430\Local Storage\leveldb since it was missing.
+2026/03/11-00:04:14.629 42a4 Reusing MANIFEST D:/UnrealProjects/DES 503/PROTOTYPE/Express-13-Prototype/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2026/03/11-00:20:53.955 7a78 Level-0 table #5: started
+2026/03/11-00:20:53.962 7a78 Level-0 table #5: 68535 bytes OK
+2026/03/11-00:20:53.965 7a78 Delete type=0 #3
+2026/03/11-00:23:00.188 7848 Level-0 table #7: started
+2026/03/11-00:23:00.193 7848 Level-0 table #7: 62470 bytes OK
+2026/03/11-00:23:00.196 7848 Delete type=0 #4
