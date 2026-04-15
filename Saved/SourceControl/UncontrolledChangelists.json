@@ -1,0 +1,15 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/UnrealProjects/DES 503/PROTOTYPE/Express-13-Prototype/Content/Sounds/SFX_LighterOff.uasset",
+				"D:/UnrealProjects/DES 503/PROTOTYPE/Express-13-Prototype/Content/Sounds/SFX_LighterOn.uasset",
+				"D:/UnrealProjects/DES 503/PROTOTYPE/Express-13-Prototype/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"D:/UnrealProjects/DES 503/PROTOTYPE/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/9C/0QH4ZZ760LB900Z8LDHQF2.uasset"
+			]
+		}
+	]
+}
