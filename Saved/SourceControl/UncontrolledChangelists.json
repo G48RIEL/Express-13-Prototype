@@ -5,6 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/cammy/OneDrive/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/GZ/TTBKQTM7H2HDLWB3T16ZLY.uasset",
+				"C:/Users/cammy/OneDrive/Documents/GitHub/Express-13-Prototype/Content/FirstPerson/Lvl_FirstPerson.umap",
+				"C:/Users/cammy/OneDrive/Documents/GitHub/Express-13-Prototype/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
 				"D:/UnrealProjects/DES 503/PROTOTYPE/Express-13-Prototype/Content/Sounds/SFX_LighterOff.uasset",
 				"D:/UnrealProjects/DES 503/PROTOTYPE/Express-13-Prototype/Content/Sounds/SFX_LighterOn.uasset",
 				"D:/UnrealProjects/DES 503/PROTOTYPE/Express-13-Prototype/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
