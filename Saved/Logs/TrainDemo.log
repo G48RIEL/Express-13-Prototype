@@ -1924,3 +1924,222 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.04.26-17.25.22:361][817]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
 [2026.04.26-17.25.22:361][817]LogShaderCompilers: Display: Material Cache Hits: 40 (24%)
 [2026.04.26-17.25.22:361][817]LogShaderCompilers: Display: ================================================
+[2026.04.26-17.25.39:417][278]Cmd: SELECT NONE
+[2026.04.26-17.25.49:082][913]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.26-17.25.49:096][913]LogContentBundle: [Lvl_FirstPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.04.26-17.25.49:096][913]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' started...
+[2026.04.26-17.25.49:101][913]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' took 5.972 ms
+[2026.04.26-17.25.49:102][913]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.26-17.25.49:108][913]LogOnline: OSS: Created online subsystem instance for: NULL
+[2026.04.26-17.25.49:108][913]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2026.04.26-17.25.49:108][913]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2026.04.26-17.25.49:157][913]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.04.26-17.25.49:167][913]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 10.168 ms
+[2026.04.26-17.25.49:167][913]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059229s)
+[2026.04.26-17.25.49:167][913]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson to /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson (0.059278s)
+[2026.04.26-17.25.49:190][913]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2026.04.26-17.25.49:191][913]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson
+[2026.04.26-17.25.49:194][913]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.04.26-17.25.49:194][913]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.26-17.25.49:194][913]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.26-17.25.49:194][913]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.04.26-17.25.49:208][913]LogWorldPartition: Display: WorldPartition initialize took 12.637 ms (total: 406.066 ms)
+[2026.04.26-17.25.49:208][913]LogPlayLevel: PIE: World Init took: (0.015134s)
+[2026.04.26-17.25.49:209][913]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2026.04.26-17.25.49:209][913]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.26-17.25.49:209][913]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.26-17.25.49:209][913]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.26-17.25.49:209][913]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.26-17.25.49:209][913]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.26-17.25.49:209][913]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.26-17.25.49:209][913]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.26-17.25.49:209][913]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.26-17.25.49:209][913]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.26-17.25.49:209][913]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.26-17.25.49:209][913]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.26-17.25.49:211][913]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.26-17.25.49:227][913]LogAudioMixer: Display: Using Audio Hardware Device 27G2G4 (NVIDIA High Definition Audio)
+[2026.04.26-17.25.49:229][913]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.26-17.25.49:229][913]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.26-17.25.49:229][913]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.26-17.25.49:229][913]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2026.04.26-17.25.49:229][913]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2026.04.26-17.25.49:231][913]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2026.04.26-17.25.49:231][913]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2026.04.26-17.25.49:231][913]LogInit: FAudioDevice initialized with ID 2.
+[2026.04.26-17.25.49:231][913]LogAudio: Display: Audio Device (ID: 2) registered with world 'Lvl_FirstPerson'.
+[2026.04.26-17.25.49:233][913]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2026.04.26-17.25.49:237][913]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.04.26-17.25.49:256][913]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson up for play (max tick rate 0) at 2026.04.26-18.25.49
+[2026.04.26-17.25.49:256][913]LogWorld: Bringing up level for play took: 0.018891
+[2026.04.26-17.25.49:259][913]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2026.04.26-17.25.49:290][913]PIE: Server logged in
+[2026.04.26-17.25.49:292][913]PIE: Play in editor total start time 0.198 seconds.
+[2026.04.26-17.25.49:403][914]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.26-17.25.54:329][266]LogRenderer: Warning: Building light grid exceeded number of available entries (464705 / 442368). Increase r.Forward.MaxCulledLightsPerCell to prevent potential visual artifacts.
+[2026.04.26-17.25.59:432][573]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'Dialogue' of length 1 in '/Game/BluePrints/Dialogue/BPC_Dialogue.BPC_Dialogue_C'!
+[2026.04.26-17.25.59:432][573]LogScript: Warning: Script Msg called by: BPC_Dialogue_C /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.BP_Bat_Dialogue_C_UAID_581122D4A7CD6AD402_1543178024.BPC_Dialogue
+[2026.04.26-17.25.59:432][573]LogScript: Warning: Script Msg: The widget 'W_Dialogue_C_2' was already added to the screen.
+[2026.04.26-17.25.59:432][573]LogScript: Warning: Script Msg called by: W_Dialogue_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.W_Dialogue_C_2
+[2026.04.26-17.26.00:128][636]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'Dialogue' of length 1 in '/Game/BluePrints/Dialogue/BPC_Dialogue.BPC_Dialogue_C'!
+[2026.04.26-17.26.00:128][636]LogScript: Warning: Script Msg called by: BPC_Dialogue_C /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.BP_Bat_Dialogue_C_UAID_581122D4A7CD6AD402_1543178024.BPC_Dialogue
+[2026.04.26-17.26.00:128][636]LogScript: Warning: Script Msg: The widget 'W_Dialogue_C_2' was already added to the screen.
+[2026.04.26-17.26.00:128][636]LogScript: Warning: Script Msg called by: W_Dialogue_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.W_Dialogue_C_2
+[2026.04.26-17.26.00:743][692]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'Dialogue' of length 1 in '/Game/BluePrints/Dialogue/BPC_Dialogue.BPC_Dialogue_C'!
+[2026.04.26-17.26.00:743][692]LogScript: Warning: Script Msg called by: BPC_Dialogue_C /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.BP_Bat_Dialogue_C_UAID_581122D4A7CD6AD402_1543178024.BPC_Dialogue
+[2026.04.26-17.26.00:743][692]LogScript: Warning: Script Msg: The widget 'W_Dialogue_C_2' was already added to the screen.
+[2026.04.26-17.26.00:743][692]LogScript: Warning: Script Msg called by: W_Dialogue_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.W_Dialogue_C_2
+[2026.04.26-17.26.01:333][745]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'Dialogue' of length 1 in '/Game/BluePrints/Dialogue/BPC_Dialogue.BPC_Dialogue_C'!
+[2026.04.26-17.26.01:333][745]LogScript: Warning: Script Msg called by: BPC_Dialogue_C /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.BP_Bat_Dialogue_C_UAID_581122D4A7CD6AD402_1543178024.BPC_Dialogue
+[2026.04.26-17.26.01:333][745]LogScript: Warning: Script Msg: The widget 'W_Dialogue_C_2' was already added to the screen.
+[2026.04.26-17.26.01:333][745]LogScript: Warning: Script Msg called by: W_Dialogue_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.W_Dialogue_C_2
+[2026.04.26-17.26.01:948][799]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'Dialogue' of length 1 in '/Game/BluePrints/Dialogue/BPC_Dialogue.BPC_Dialogue_C'!
+[2026.04.26-17.26.01:948][799]LogScript: Warning: Script Msg called by: BPC_Dialogue_C /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.BP_Bat_Dialogue_C_UAID_581122D4A7CD6AD402_1543178024.BPC_Dialogue
+[2026.04.26-17.26.01:948][799]LogScript: Warning: Script Msg: The widget 'W_Dialogue_C_2' was already added to the screen.
+[2026.04.26-17.26.01:948][799]LogScript: Warning: Script Msg called by: W_Dialogue_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.W_Dialogue_C_2
+[2026.04.26-17.26.03:815][945]LogNiagara: Compiling System NiagaraSystem /Game/Cel_Shading/VFX_cell/NS_StylizedSparks_System.NS_StylizedSparks_System took 0.081410 sec (time since issued).
+[2026.04.26-17.26.04:509][994]LogBlueprintUserMessages: Warning: SetTimer passed a function (AdjustSanity) that expects parameters.
+[2026.04.26-17.26.05:465][ 74]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.26-17.26.05:465][ 74]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2026.04.26-17.26.05:465][ 74]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2026.04.26-17.26.05:465][ 74]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2026.04.26-17.26.05:471][ 74]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.26-17.26.05:471][ 74]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson
+[2026.04.26-17.26.05:473][ 74]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.26-17.26.05:479][ 74]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.26-17.26.05:506][ 74]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.26-17.26.05:508][ 74]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2026.04.26-17.26.05:509][ 74]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=4
+[2026.04.26-17.26.05:511][ 74]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
+[2026.04.26-17.26.05:523][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2026.04.26-17.26.05:569][ 75]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2026.04.26-17.26.25:450][446]Cmd: SELECT NONE
+[2026.04.26-17.26.34:999][572]Cmd: SELECT NONE
+[2026.04.26-17.26.52:772][728]Cmd: SELECT NONE
+[2026.04.26-17.27.09:297][121]Cmd: EDIT COPY
+[2026.04.26-17.27.12:205][288]Cmd: EDIT COPY
+[2026.04.26-17.27.12:399][300]Cmd: EDIT PASTE
+[2026.04.26-17.27.19:765][684]Cmd: EDIT COPY
+[2026.04.26-17.27.19:955][697]Cmd: EDIT PASTE
+[2026.04.26-17.27.28:046][183]Cmd: EDIT COPY
+[2026.04.26-17.27.28:243][189]Cmd: EDIT PASTE
+[2026.04.26-17.27.31:733][385]Cmd: EDIT COPY
+[2026.04.26-17.27.31:961][400]Cmd: EDIT PASTE
+[2026.04.26-17.27.34:450][560]Cmd: SELECT NONE
+[2026.04.26-17.27.44:713][358]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.04.26-17.27.44:732][358]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.26-17.27.44:808][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/YG/OKM4KRHBI9RKNDU81681KS
+[2026.04.26-17.27.44:808][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/OKM4KRHBI9RKNDU81681KS65FAC0724C6BB7EB2D95D48A857C1011.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/YG/OKM4KRHBI9RKNDU81681KS.uasset'
+[2026.04.26-17.27.44:811][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/KJ/KBXPHL3VZW3PVB9J408ZK9
+[2026.04.26-17.27.44:811][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/KBXPHL3VZW3PVB9J408ZK9A407B06E436C7818256A46B6F43E8161.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/KJ/KBXPHL3VZW3PVB9J408ZK9.uasset'
+[2026.04.26-17.27.44:813][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/W4/U30CDZZP3X2XAKEGG0H75W
+[2026.04.26-17.27.44:814][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/U30CDZZP3X2XAKEGG0H75WD8B77C634379D4A1707754A4D5D726B0.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/W4/U30CDZZP3X2XAKEGG0H75W.uasset'
+[2026.04.26-17.27.44:816][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/9Z/GG2M9X35WSILQ8GLA41RTJ
+[2026.04.26-17.27.44:816][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/GG2M9X35WSILQ8GLA41RTJCD4BFDCA440AD9562B08B49259DAA786.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/9Z/GG2M9X35WSILQ8GLA41RTJ.uasset'
+[2026.04.26-17.27.44:819][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/ZF/QJJATZP7XUZ4F2NNQQ7MOW
+[2026.04.26-17.27.44:819][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/QJJATZP7XUZ4F2NNQQ7MOWFEC3FE214B0E03E7AE51F892AD0F77D0.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/ZF/QJJATZP7XUZ4F2NNQQ7MOW.uasset'
+[2026.04.26-17.27.44:821][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/56/9325SJL3ZIZYDMZ7H1HTUD
+[2026.04.26-17.27.44:821][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/9325SJL3ZIZYDMZ7H1HTUDFDE520F44103445DECA29B9C2473C9FE.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/56/9325SJL3ZIZYDMZ7H1HTUD.uasset'
+[2026.04.26-17.27.44:824][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/I8/7NGVD6P5459UAHMDPT2LDV
+[2026.04.26-17.27.44:824][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/7NGVD6P5459UAHMDPT2LDVA52D97824C638FA0EE0C13AEF0EFBF01.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/I8/7NGVD6P5459UAHMDPT2LDV.uasset'
+[2026.04.26-17.27.44:827][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/JD/NK8LR5FRI3BE6WOE7WT0Q1
+[2026.04.26-17.27.44:827][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/NK8LR5FRI3BE6WOE7WT0Q10BB89C6D4874D799A0A06A9D53E1D384.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/JD/NK8LR5FRI3BE6WOE7WT0Q1.uasset'
+[2026.04.26-17.27.44:829][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/K3/DVQRAJRB0BLNBNOLHOWWZ0
+[2026.04.26-17.27.44:829][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/DVQRAJRB0BLNBNOLHOWWZ03F0B6C1D453A41BF35583FAB34B44090.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/K3/DVQRAJRB0BLNBNOLHOWWZ0.uasset'
+[2026.04.26-17.27.44:832][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/BN/Y33P5DONSD1PXSYXWA3ZTB
+[2026.04.26-17.27.44:832][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/Y33P5DONSD1PXSYXWA3ZTBED386C0D438B3FCC11012D933CB321A0.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/BN/Y33P5DONSD1PXSYXWA3ZTB.uasset'
+[2026.04.26-17.27.44:833][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/OI/0DJLR6FK675TDEJ5F9GB3C
+[2026.04.26-17.27.44:833][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/0DJLR6FK675TDEJ5F9GB3C51ACA1BC4E2E8DB36038DDB8401F7CCA.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/OI/0DJLR6FK675TDEJ5F9GB3C.uasset'
+[2026.04.26-17.27.44:837][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/UF/2UCXUORBB6EGIOG40JGAS6
+[2026.04.26-17.27.44:837][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/2UCXUORBB6EGIOG40JGAS65B42F2CA4F662EC1E28A29BF1F01FE6E.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/UF/2UCXUORBB6EGIOG40JGAS6.uasset'
+[2026.04.26-17.27.44:839][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/QY/VEL9WE4EU8QTT8JV7P6Z4F
+[2026.04.26-17.27.44:839][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/VEL9WE4EU8QTT8JV7P6Z4F8BEA8F17411FDD5B91504A9D6615A39C.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/QY/VEL9WE4EU8QTT8JV7P6Z4F.uasset'
+[2026.04.26-17.27.44:840][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/BC/LFT7QKOUKDAKPRFS87GO0A
+[2026.04.26-17.27.44:840][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/LFT7QKOUKDAKPRFS87GO0A854BC9CA404E8905DF163CBEB6005358.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/BC/LFT7QKOUKDAKPRFS87GO0A.uasset'
+[2026.04.26-17.27.44:844][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/NS/7I8CRBO3M0M04VNFS20ZAE
+[2026.04.26-17.27.44:844][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/7I8CRBO3M0M04VNFS20ZAEA73BF9D84E58B5EAE3DBF59C7227EDAE.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/NS/7I8CRBO3M0M04VNFS20ZAE.uasset'
+[2026.04.26-17.27.44:847][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/1U/VNXL39NDZS91O72JTFPPB3
+[2026.04.26-17.27.44:847][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/VNXL39NDZS91O72JTFPPB371F613864BB157687F541898E35E2CAD.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/1U/VNXL39NDZS91O72JTFPPB3.uasset'
+[2026.04.26-17.27.44:850][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/LS/SHMNRCNT8IAOBQ7CKRH8C3
+[2026.04.26-17.27.44:850][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/SHMNRCNT8IAOBQ7CKRH8C3B4B7FBFE4E9415E0C99B0DA72A509860.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/LS/SHMNRCNT8IAOBQ7CKRH8C3.uasset'
+[2026.04.26-17.27.44:851][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/KU/ZHPDC50TTR2SP4CUCTPB93
+[2026.04.26-17.27.44:851][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/ZHPDC50TTR2SP4CUCTPB93AAF5F3664F5D9D3D282E19B05FA2872E.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/KU/ZHPDC50TTR2SP4CUCTPB93.uasset'
+[2026.04.26-17.27.44:854][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/7N/TETN15LMYLTEAVKRL954KB
+[2026.04.26-17.27.44:854][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/TETN15LMYLTEAVKRL954KB8296E6EE4223758195A0A9B49AEAB9D2.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/7N/TETN15LMYLTEAVKRL954KB.uasset'
+[2026.04.26-17.27.44:857][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/BZ/F7ME75RABN30FNB8UYP0D3
+[2026.04.26-17.27.44:857][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/F7ME75RABN30FNB8UYP0D33BA97FE94D60C39D97D7CB8A6C6F7726.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/BZ/F7ME75RABN30FNB8UYP0D3.uasset'
+[2026.04.26-17.27.44:858][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/QE/12J7LFTHWQ2QHARI0P8H0T
+[2026.04.26-17.27.44:858][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/12J7LFTHWQ2QHARI0P8H0T1391C77F47695D5ACFC10C9F2EB79513.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/QE/12J7LFTHWQ2QHARI0P8H0T.uasset'
+[2026.04.26-17.27.44:861][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/HW/63A9TZTJSZWKZCQJ5WVGMV
+[2026.04.26-17.27.44:861][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/63A9TZTJSZWKZCQJ5WVGMV2D1A85CE449E38BFAE7485990A0DD957.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/HW/63A9TZTJSZWKZCQJ5WVGMV.uasset'
+[2026.04.26-17.27.44:863][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/5Z/ERPUCZGL3WN80I94OARQV3
+[2026.04.26-17.27.44:863][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/ERPUCZGL3WN80I94OARQV3698BE5DC4C96E8DB08B583AB90E76C42.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/5Z/ERPUCZGL3WN80I94OARQV3.uasset'
+[2026.04.26-17.27.44:866][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/AZ/GR09MKP5I0JDWZT7UUTXK7
+[2026.04.26-17.27.44:866][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/GR09MKP5I0JDWZT7UUTXK7B35572474A8FD6F32CB49DA9AE9563F2.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/AZ/GR09MKP5I0JDWZT7UUTXK7.uasset'
+[2026.04.26-17.27.44:870][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/GX/YDI94IO0FM03A0ULEDC503
+[2026.04.26-17.27.44:870][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/YDI94IO0FM03A0ULEDC503362A0D354F28F5E5523861B6FF5BDB25.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/GX/YDI94IO0FM03A0ULEDC503.uasset'
+[2026.04.26-17.27.44:871][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/4Y/I1LL19GGDVAS5RE3XWGNGW
+[2026.04.26-17.27.44:871][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/I1LL19GGDVAS5RE3XWGNGW8D58DDF94709F52FE30160B0A9BA5B40.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/4Y/I1LL19GGDVAS5RE3XWGNGW.uasset'
+[2026.04.26-17.27.44:875][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/DS/39EPAENGHB1F8DMLRTTFNJ
+[2026.04.26-17.27.44:875][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/39EPAENGHB1F8DMLRTTFNJE28A1AE54524DE94FE50E6BAD8D5A06D.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/DS/39EPAENGHB1F8DMLRTTFNJ.uasset'
+[2026.04.26-17.27.44:876][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/81/JIDQSJ9UXWHHIJH5MKGQPE
+[2026.04.26-17.27.44:876][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/JIDQSJ9UXWHHIJH5MKGQPEC0E9966A493F1521F928A1B2F69B1F19.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/81/JIDQSJ9UXWHHIJH5MKGQPE.uasset'
+[2026.04.26-17.27.44:879][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/ZV/3PCD9S3SMFAYDQW4RGTZGO
+[2026.04.26-17.27.44:879][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/3PCD9S3SMFAYDQW4RGTZGO5EF214134F7250B26C5BF1802BA2DB5B.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/ZV/3PCD9S3SMFAYDQW4RGTZGO.uasset'
+[2026.04.26-17.27.44:882][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/QA/NH4PJ1DMVUURE8GFM06V75
+[2026.04.26-17.27.44:882][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/NH4PJ1DMVUURE8GFM06V756EBD9C0649D58193768EC883051303D8.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/QA/NH4PJ1DMVUURE8GFM06V75.uasset'
+[2026.04.26-17.27.44:885][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/D6/7VQDY25UJ82ZHDNA8RMBMD
+[2026.04.26-17.27.44:886][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/7VQDY25UJ82ZHDNA8RMBMDFCC071E94D687049D9EFA69CB0DD7D31.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/D6/7VQDY25UJ82ZHDNA8RMBMD.uasset'
+[2026.04.26-17.27.44:888][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/UE/SHDPGQA6543WZ1EL36L0Z2
+[2026.04.26-17.27.44:888][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/SHDPGQA6543WZ1EL36L0Z23CE0D2294607D9DD0474F3B6F976D383.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/UE/SHDPGQA6543WZ1EL36L0Z2.uasset'
+[2026.04.26-17.27.44:891][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/FW/592487ATTD27I8J4LQJB0Q
+[2026.04.26-17.27.44:891][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/592487ATTD27I8J4LQJB0QABCB691E45239D76DD4500A86C87E523.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/FW/592487ATTD27I8J4LQJB0Q.uasset'
+[2026.04.26-17.27.44:892][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/9L/IFF32YMR51EF3MGKG70WD9
+[2026.04.26-17.27.44:892][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/IFF32YMR51EF3MGKG70WD9E79C64754CA9DFB2EBA8CE97E8B5AA8A.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/9L/IFF32YMR51EF3MGKG70WD9.uasset'
+[2026.04.26-17.27.44:895][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/MW/S51X4MGPXNKFBTBSWY2N67
+[2026.04.26-17.27.44:895][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/S51X4MGPXNKFBTBSWY2N67E4471DF5433C007F9CC91590D66F5950.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/MW/S51X4MGPXNKFBTBSWY2N67.uasset'
+[2026.04.26-17.27.44:897][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/25/CNCW2QR26M4JW5XUVWETGC
+[2026.04.26-17.27.44:897][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/CNCW2QR26M4JW5XUVWETGC94CA41394F3174AB2179FF84B40B83DF.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/25/CNCW2QR26M4JW5XUVWETGC.uasset'
+[2026.04.26-17.27.44:900][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/4B/EIPOSWQWZ848KBH8W3TMHN
+[2026.04.26-17.27.44:900][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/EIPOSWQWZ848KBH8W3TMHN8E56B0874B653C324096F68A1933091A.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/4B/EIPOSWQWZ848KBH8W3TMHN.uasset'
+[2026.04.26-17.27.44:903][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/2G/913Y2Q3OY7OEKQKQA7SK2U
+[2026.04.26-17.27.44:903][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/913Y2Q3OY7OEKQKQA7SK2U78A2B5B14C8D865BFAFE35B91F6A096B.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/2G/913Y2Q3OY7OEKQKQA7SK2U.uasset'
+[2026.04.26-17.27.44:906][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/K8/N7I3AOP1XH3DT35JWUVS13
+[2026.04.26-17.27.44:906][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/N7I3AOP1XH3DT35JWUVS13E764EF18483B80E0B7351FA6E9AC8E6D.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/K8/N7I3AOP1XH3DT35JWUVS13.uasset'
+[2026.04.26-17.27.44:909][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/K0/45LHL19Y5JDBR4POLXTZ6M
+[2026.04.26-17.27.44:909][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/45LHL19Y5JDBR4POLXTZ6M599F2BB84F4754DD38D6668B21FC4666.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/K0/45LHL19Y5JDBR4POLXTZ6M.uasset'
+[2026.04.26-17.27.44:910][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/U2/ID2N5B1ZNQ2YZ0I0D87IW4
+[2026.04.26-17.27.44:910][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/ID2N5B1ZNQ2YZ0I0D87IW4DB47291E43973162913108BF387B851D.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/U2/ID2N5B1ZNQ2YZ0I0D87IW4.uasset'
+[2026.04.26-17.27.44:913][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/RG/18WY42AW5K85ML3S44YQHO
+[2026.04.26-17.27.44:913][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/18WY42AW5K85ML3S44YQHO6CEB6B6B418A6D04E7FA46A0B755E03A.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/RG/18WY42AW5K85ML3S44YQHO.uasset'
+[2026.04.26-17.27.44:916][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/MX/21YY44ARAB2592D6BCO6BJ
+[2026.04.26-17.27.44:916][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/21YY44ARAB2592D6BCO6BJEA4C33A444DE5FED07752CA944E56490.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/MX/21YY44ARAB2592D6BCO6BJ.uasset'
+[2026.04.26-17.27.44:919][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/T4/O9OMGHQRT1TNPZGEBAGK0Y
+[2026.04.26-17.27.44:919][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/O9OMGHQRT1TNPZGEBAGK0Y32EE29F0493EB2B63A265EA80E2B4713.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/T4/O9OMGHQRT1TNPZGEBAGK0Y.uasset'
+[2026.04.26-17.27.44:920][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/NM/8NFJVWDTBRXIJYI718TZGL
+[2026.04.26-17.27.44:922][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/8NFJVWDTBRXIJYI718TZGL41721796411F2CA9E35F9EB26F605B1F.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/NM/8NFJVWDTBRXIJYI718TZGL.uasset'
+[2026.04.26-17.27.44:923][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/C9/ENC8O6CKAA5GLA7QMEDA9U
+[2026.04.26-17.27.44:923][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/ENC8O6CKAA5GLA7QMEDA9U6F832C1941E79DA9D00D97B41BCB95AA.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/C9/ENC8O6CKAA5GLA7QMEDA9U.uasset'
+[2026.04.26-17.27.44:926][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/A3/1ZB11U57CT8YEATA9N4ENS
+[2026.04.26-17.27.44:927][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/1ZB11U57CT8YEATA9N4ENSF95F244B4E9E97637E44B892BE10CFCA.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/A3/1ZB11U57CT8YEATA9N4ENS.uasset'
+[2026.04.26-17.27.44:929][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/4F/U7C8WALUYUD4MR89XJKYYU
+[2026.04.26-17.27.44:929][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/U7C8WALUYUD4MR89XJKYYU49A39971492C573B142C03BA9E43C7E5.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/4F/U7C8WALUYUD4MR89XJKYYU.uasset'
+[2026.04.26-17.27.44:933][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/JW/UYP67R4K5BBMLUV2T85OAT
+[2026.04.26-17.27.44:933][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/UYP67R4K5BBMLUV2T85OAT9A73C3294ED11E06C27406A883883C9F.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/JW/UYP67R4K5BBMLUV2T85OAT.uasset'
+[2026.04.26-17.27.44:934][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/QN/USQWW48O368XIRDGC7IBMR
+[2026.04.26-17.27.44:934][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/USQWW48O368XIRDGC7IBMR21A000E94FE274E21CD1F7A90EB5D8B0.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/QN/USQWW48O368XIRDGC7IBMR.uasset'
+[2026.04.26-17.27.44:938][358]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/S8/WNZTF0JLTMKH4MS4TFIDNI
+[2026.04.26-17.27.44:938][358]LogSavePackage: Moving '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/WNZTF0JLTMKH4MS4TFIDNI667C34804F6E23247D63FE808806B5BE.tmp' to '../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/S8/WNZTF0JLTMKH4MS4TFIDNI.uasset'
+[2026.04.26-17.27.44:960][358]LogFileHelpers: InternalPromptForCheckoutAndSave took 228.082 ms (total: 782.827 ms)
+[2026.04.26-17.27.45:085][358]LogContentValidation: Display: Starting to validate 51 assets
+[2026.04.26-17.27.45:085][358]LogContentValidation: Enabled validators:
+[2026.04.26-17.27.45:085][358]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.26-17.27.45:085][358]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.26-17.27.45:085][358]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.26-17.27.45:085][358]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.26-17.27.45:085][358]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.26-17.27.45:086][358]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.26-17.27.45:086][358]AssetCheck: /Game/FirstPerson/Lvl_FirstPerson Validating asset
+[2026.04.26-17.27.45:136][358]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/harle/Documents/GitHub/Express-13-Prototype/Saved/SourceControl/UncontrolledChangelists.json
