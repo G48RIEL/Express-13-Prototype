@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/ashle/Documents/GitHub/Express-13-Prototype/Content/menuSystem/menuUI/Title_BG.uasset",
+				"C:/Users/ashle/Documents/GitHub/Express-13-Prototype/Content/menuSystem/menuUI/m_menuUI.uasset",
+				"C:/Users/ashle/Documents/GitHub/Express-13-Prototype/Content/menuSystem/WB_menuButton.uasset",
+				"C:/Users/ashle/Documents/GitHub/Express-13-Prototype/Content/menuSystem/WB_mainMenuUi.uasset",
+				"C:/Users/ashle/Documents/GitHub/Express-13-Prototype/Content/FirstPerson/lvl_mainMenu.umap",
 				"C:/Users/harry/GitHub/Express-13-Prototype/Content/BluePrints/BP_DiaArray.uasset",
 				"C:/Users/harry/GitHub/Express-13-Prototype/Content/BluePrints/WBP_ConcArt.uasset",
 				"C:/Users/harry/GitHub/Express-13-Prototype/Content/Widget/WBP_ConcArt.uasset",
