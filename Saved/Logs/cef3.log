@@ -1,7 +1,23 @@
-[0429/013428.524:ERROR:backend_impl.cc(1041)] Critical error found -8
-[0429/013429.426:WARNING:value_store_frontend.cc(45)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[0429/013429.435:WARNING:storage_block-inl.h(146)] Failed data load.
-[0429/013429.435:WARNING:storage_block-inl.h(146)] Failed data load.
-[0429/013429.435:WARNING:storage_block-inl.h(146)] Failed data load.
-[0429/013429.436:ERROR:entry_impl.cc(998)] Failed to save user data
-[0429/013628.217:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
+[0502/210316.334:WARNING:value_store_frontend.cc(45)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[0502/210448.415:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(102,1-6): warning X4000: use of potentially uninitialized variable (dyn_index_vec4_float4)
+
+[0502/210448.599:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(135,1): warning X4000: use of potentially uninitialized variable (f_i)
+C:\fakepath(137,1): warning X4000: use of potentially uninitialized variable (f_i)
+C:\fakepath(173,1): warning X4000: use of potentially uninitialized variable (f_u)
+
+[0502/210450.966:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(165,1): warning X4000: use of potentially uninitialized variable (f_renderMipMapLevel)
+
+[0502/210450.972:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(165,1): warning X4000: use of potentially uninitialized variable (f_renderMipMapLevel)
+
+[0502/210450.973:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(165,1): warning X4000: use of potentially uninitialized variable (f_renderMipMapLevel)
+
+[0502/210450.981:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(165,1): warning X4000: use of potentially uninitialized variable (f_renderMipMapLevel)
+
+[0502/210451.345:ERROR:gl_utils.cc(314)] [.WebGL-0000074F6F4BDA00] GL_INVALID_OPERATION: Two textures of different types use the same sampler location.
+[0502/210515.024:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled

@@ -1,0 +1,29 @@
+2026/04/29-01:34:28.099 7ebc Creating DB D:/UnrealProjects/DES 503/PROTOTYPE/Express-13-Prototype/Saved/webcache_4430\Local Storage\leveldb since it was missing.
+2026/04/29-01:34:28.111 7ebc Reusing MANIFEST D:/UnrealProjects/DES 503/PROTOTYPE/Express-13-Prototype/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2026/04/29-01:54:41.155 2dc8 Level-0 table #5: started
+2026/04/29-01:54:41.160 2dc8 Level-0 table #5: 63037 bytes OK
+2026/04/29-01:54:41.163 2dc8 Delete type=0 #3
+2026/04/29-02:26:51.998 7348 Level-0 table #7: started
+2026/04/29-02:26:52.004 7348 Level-0 table #7: 67725 bytes OK
+2026/04/29-02:26:52.007 7348 Delete type=0 #4
+2026/04/29-02:29:03.101 783c Level-0 table #9: started
+2026/04/29-02:29:03.106 783c Level-0 table #9: 67259 bytes OK
+2026/04/29-02:29:03.110 783c Delete type=0 #6
+2026/04/29-02:34:17.575 8598 Level-0 table #11: started
+2026/04/29-02:34:17.581 8598 Level-0 table #11: 74954 bytes OK
+2026/04/29-02:34:17.584 8598 Delete type=0 #8
+2026/04/29-02:34:59.224 783c Level-0 table #13: started
+2026/04/29-02:34:59.230 783c Level-0 table #13: 64041 bytes OK
+2026/04/29-02:34:59.233 783c Delete type=0 #10
+2026/04/29-02:48:44.341 7008 Level-0 table #15: started
+2026/04/29-02:48:44.347 7008 Level-0 table #15: 71230 bytes OK
+2026/04/29-02:48:44.350 7008 Delete type=0 #12
+2026/04/29-02:48:44.352 7008 Compacting 4@0 + 1@1 files
+2026/04/29-02:48:44.355 7008 Generated table #16@0: 2 keys, 18705 bytes
+2026/04/29-02:48:44.355 7008 Compacted 4@0 + 1@1 files => 18705 bytes
+2026/04/29-02:48:44.356 7008 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/04/29-02:48:44.356 7008 Delete type=2 #7
+2026/04/29-02:48:44.356 7008 Delete type=2 #9
+2026/04/29-02:48:44.357 7008 Delete type=2 #11
+2026/04/29-02:48:44.357 7008 Delete type=2 #13
+2026/04/29-02:48:44.357 7008 Delete type=2 #15
