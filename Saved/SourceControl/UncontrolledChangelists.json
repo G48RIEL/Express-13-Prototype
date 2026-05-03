@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/cammy/OneDrive/Documents/GitHub/Express-13-Prototype/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"C:/Users/cammy/OneDrive/Documents/GitHub/Express-13-Prototype/Content/FirstPerson/Lvl_FirstPerson.umap",
+				"C:/Users/cammy/OneDrive/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/VA/FBU65KMCHA9IEYCJ3MILFN.uasset",
+				"C:/Users/cammy/OneDrive/Documents/GitHub/Express-13-Prototype/Content/BluePrints/Interactables/BP_Food_Drop.uasset",
 				"C:/Users/ashle/Documents/GitHub/Express-13-Prototype/Content/menuSystem/menuUI/WB_mainMenuUi.uasset",
 				"C:/Users/ashle/Documents/GitHub/Express-13-Prototype/Content/FirstPerson/lvl_mainMenu.umap",
 				"C:/Users/ashle/Documents/GitHub/Express-13-Prototype/Content/menuSystem/menuUI/menuAnim/videoWidget1.uasset"
