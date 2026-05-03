@@ -23,7 +23,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="2385628198" Type="Event" GUID="{0327DF95-6AB6-4A6D-A0BE-66216CAFBAAE}" Language="SFX" Hash="{2B742567-5342-9375-71F0-B99820F223F2}">
+		<SoundBank Id="2385628198" Type="Event" GUID="{0327DF95-6AB6-4A6D-A0BE-66216CAFBAAE}" Language="SFX" Hash="{FA966D2A-EDAD-AFB3-417E-BC43BA47EB7C}">
 			<ObjectPath>footsteps</ObjectPath>
 			<ShortName>footsteps</ShortName>
 			<Path>Event/footsteps.bnk</Path>
@@ -223,5 +223,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7D8E1269-2713-ABD9-41AC-F834515ACB6B}</FileHash>
+	<FileHash>{114783CE-DD21-F2A0-AEA9-AF429B06AEE5}</FileHash>
 </SoundBanksInfo>
