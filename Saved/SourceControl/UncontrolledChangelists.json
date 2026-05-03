@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/cammy/OneDrive/Documents/GitHub/Express-13-Prototype/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"C:/Users/cammy/OneDrive/Documents/GitHub/Express-13-Prototype/Content/FirstPerson/Lvl_FirstPerson.umap",
+				"C:/Users/cammy/OneDrive/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/VA/FBU65KMCHA9IEYCJ3MILFN.uasset",
+				"C:/Users/cammy/OneDrive/Documents/GitHub/Express-13-Prototype/Content/BluePrints/Interactables/BP_Food_Drop.uasset",
+				"C:/Users/cammy/OneDrive/Documents/GitHub/Express-13-Prototype/Content/Music/Traintheme.uasset",
 				"D:/Uni Stuff/Team lightning game/Express-13-Prototype/Content/WwiseAudio/WwiseMultiReferenceAssetLibrary.uasset",
 				"D:/Uni Stuff/Team lightning game/Express-13-Prototype/Content/WwiseAudio/DefaultGeometrySurfacePropertiesTable.uasset",
 				"D:/Uni Stuff/Team lightning game/Express-13-Prototype/Content/WwiseAudio/DefaultReverbAssignmentTable.uasset",
@@ -50,10 +55,6 @@
 				"D:/UnrealProjects/DES 503/PROTOTYPE/Express-13-Prototype/Content/Meshes/owl/Mothman/FluffTexture/M_Moth_fluf.uasset",
 				"D:/UnrealProjects/DES 503/PROTOTYPE/Express-13-Prototype/Content/Meshes/owl/Mothman/AntennaTexture/M_Moth_anti.uasset",
 				"D:/UnrealProjects/DES 503/PROTOTYPE/Express-13-Prototype/Content/Cel_Shading/Material/M_hide.uasset",
-				"C:/Users/cammy/OneDrive/Documents/GitHub/Express-13-Prototype/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
-				"C:/Users/cammy/OneDrive/Documents/GitHub/Express-13-Prototype/Content/FirstPerson/Lvl_FirstPerson.umap",
-				"C:/Users/cammy/OneDrive/Documents/GitHub/Express-13-Prototype/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/VA/FBU65KMCHA9IEYCJ3MILFN.uasset",
-				"C:/Users/cammy/OneDrive/Documents/GitHub/Express-13-Prototype/Content/BluePrints/Interactables/BP_Food_Drop.uasset",
 				"C:/Users/ashle/Documents/GitHub/Express-13-Prototype/Content/menuSystem/menuUI/WB_mainMenuUi.uasset",
 				"C:/Users/ashle/Documents/GitHub/Express-13-Prototype/Content/FirstPerson/lvl_mainMenu.umap",
 				"C:/Users/ashle/Documents/GitHub/Express-13-Prototype/Content/menuSystem/menuUI/menuAnim/videoWidget1.uasset"
