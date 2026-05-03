@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "Express-13-Prototype_WwiseProject",
+   "GUID": "{014EF210-D9B6-4A91-A83E-C7BF4ED9B5E0}",
+   "Generator": "2024.1.8.8898"
+  },
+  "CacheRoot": "../.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{7F594076-30CC-4ADB-9BBA-CEAA93DB63C5}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{847D66EF-BE61-4658-92FD-297F3F82FC3E}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{A8B3A420-F8D8-4F4B-9BF7-A2063F9832C7}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{92DB759A-6AA4-6E29-5E28-565F2F3229E4}"
+ }
+}

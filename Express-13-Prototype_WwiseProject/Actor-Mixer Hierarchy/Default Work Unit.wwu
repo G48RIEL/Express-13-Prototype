@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{58472794-6A92-4CCE-89ED-1116F263B2D2}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{58472794-6A92-4CCE-89ED-1116F263B2D2}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Walking" ID="{B5BA7BB2-773C-4458-B29E-C1CF7EB499FD}" ShortID="991861065">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{17A5B026-059B-4662-B956-6DF95DBA9D80}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="250"/>
+											<Property Name="Min" Type="Real64" Value="-250"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-25</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9970F0C1-1470-4763-BB71-040D14275AB6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8AB3BB3-46E6-4BED-AE44-E9B685026A80}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="lightning game walking sounds_002" ID="{31D21B64-3F9B-4B23-8D52-41816EA948BB}" ShortID="633360100">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9970F0C1-1470-4763-BB71-040D14275AB6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8AB3BB3-46E6-4BED-AE44-E9B685026A80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="lightning game walking sounds_002" ID="{AA0B7AB6-FD91-470D-82F8-F42104ED6428}">
+									<Language>SFX</Language>
+									<AudioFile>lightning game walking sounds_002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="386694934"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="lightning game walking sounds_002" ID="{AA0B7AB6-FD91-470D-82F8-F42104ED6428}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="lightning game walking sounds_003" ID="{04EF97A6-198E-4ADE-871E-6B9856962C0A}" ShortID="176326758">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9970F0C1-1470-4763-BB71-040D14275AB6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8AB3BB3-46E6-4BED-AE44-E9B685026A80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="lightning game walking sounds_003" ID="{F7D54701-BCE9-4EEC-B675-D831FEA65160}">
+									<Language>SFX</Language>
+									<AudioFile>lightning game walking sounds_003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="203962740"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="lightning game walking sounds_003" ID="{F7D54701-BCE9-4EEC-B675-D831FEA65160}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="lightning game walking sounds_005" ID="{A77F3275-9F33-45CA-B49E-0C246C0758AD}" ShortID="615884288">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9970F0C1-1470-4763-BB71-040D14275AB6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8AB3BB3-46E6-4BED-AE44-E9B685026A80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="lightning game walking sounds_005" ID="{8F290E52-746A-4C6C-AA55-9A163C9E6C89}">
+									<Language>SFX</Language>
+									<AudioFile>lightning game walking sounds_005.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="221913599"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="lightning game walking sounds_005" ID="{8F290E52-746A-4C6C-AA55-9A163C9E6C89}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="lightning game walking sounds_004" ID="{628AB12D-BD2A-4059-9C35-3A5DA5E6C808}" ShortID="867646103">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9970F0C1-1470-4763-BB71-040D14275AB6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8AB3BB3-46E6-4BED-AE44-E9B685026A80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="lightning game walking sounds_004" ID="{05DD0E75-3021-4913-AB77-75894D6EBCE1}">
+									<Language>SFX</Language>
+									<AudioFile>lightning game walking sounds_004.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="6587319"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="lightning game walking sounds_004" ID="{05DD0E75-3021-4913-AB77-75894D6EBCE1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="lightning game walking sounds_006" ID="{9217E6D9-6AA8-42E9-BB18-303B1DC38A19}" ShortID="146833361">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9970F0C1-1470-4763-BB71-040D14275AB6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8AB3BB3-46E6-4BED-AE44-E9B685026A80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="lightning game walking sounds_006" ID="{B2166B2B-CC1F-452B-86A0-7A7D55B656DD}">
+									<Language>SFX</Language>
+									<AudioFile>lightning game walking sounds_006.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="995057769"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="lightning game walking sounds_006" ID="{B2166B2B-CC1F-452B-86A0-7A7D55B656DD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="lightning game walking sounds_008" ID="{8D3747F1-EC6C-4893-8D8D-70C9B366DD42}" ShortID="1027462320">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9970F0C1-1470-4763-BB71-040D14275AB6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8AB3BB3-46E6-4BED-AE44-E9B685026A80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="lightning game walking sounds_008" ID="{FF1C052A-DC68-4BB8-8FD5-46016922966B}">
+									<Language>SFX</Language>
+									<AudioFile>lightning game walking sounds_008.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="683928438"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="lightning game walking sounds_008" ID="{FF1C052A-DC68-4BB8-8FD5-46016922966B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="lightning game walking sounds_022" ID="{D34E5888-C874-4113-B143-598884EB4250}" ShortID="310770238">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9970F0C1-1470-4763-BB71-040D14275AB6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8AB3BB3-46E6-4BED-AE44-E9B685026A80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="lightning game walking sounds_022" ID="{3FAA957F-EEE9-4DC1-A53E-2D019B8459C9}">
+									<Language>SFX</Language>
+									<AudioFile>lightning game walking sounds_022.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="578894532"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="lightning game walking sounds_022" ID="{3FAA957F-EEE9-4DC1-A53E-2D019B8459C9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="lightning game walking sounds_023" ID="{05ED9D39-4ADD-47DB-BE9B-71F354DD47F8}" ShortID="82743571">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9970F0C1-1470-4763-BB71-040D14275AB6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8AB3BB3-46E6-4BED-AE44-E9B685026A80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="lightning game walking sounds_023" ID="{5F8B8E6A-5E4A-41B1-9EB6-44AA4A938BB1}">
+									<Language>SFX</Language>
+									<AudioFile>lightning game walking sounds_023.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="691589187"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="lightning game walking sounds_023" ID="{5F8B8E6A-5E4A-41B1-9EB6-44AA4A938BB1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="lightning game walking sounds_011" ID="{23C02ECA-A8CE-40E0-9B9C-5372DAF5BA96}" ShortID="155539009">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9970F0C1-1470-4763-BB71-040D14275AB6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8AB3BB3-46E6-4BED-AE44-E9B685026A80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="lightning game walking sounds_011" ID="{957AEBC7-5FB5-49B9-BE49-3D392D0FC0FC}">
+									<Language>SFX</Language>
+									<AudioFile>lightning game walking sounds_011.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="14853657"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="lightning game walking sounds_011" ID="{957AEBC7-5FB5-49B9-BE49-3D392D0FC0FC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="lightning game walking sounds_010" ID="{FBB0D649-4B99-47A6-AAAE-F2D375A7459F}" ShortID="80918193">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9970F0C1-1470-4763-BB71-040D14275AB6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8AB3BB3-46E6-4BED-AE44-E9B685026A80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="lightning game walking sounds_010" ID="{F8D8CD1D-BF67-4680-8EFB-2C74CB6EC1A0}">
+									<Language>SFX</Language>
+									<AudioFile>lightning game walking sounds_010.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="205507379"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="lightning game walking sounds_010" ID="{F8D8CD1D-BF67-4680-8EFB-2C74CB6EC1A0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="lightning game walking sounds_007" ID="{44351580-E38E-4341-95BF-098022CF6E17}" ShortID="976890450">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9970F0C1-1470-4763-BB71-040D14275AB6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8AB3BB3-46E6-4BED-AE44-E9B685026A80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="lightning game walking sounds_007" ID="{FD82BA50-1B38-48DC-9BC7-E3BD8905C563}">
+									<Language>SFX</Language>
+									<AudioFile>lightning game walking sounds_007.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="882717845"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="lightning game walking sounds_007" ID="{FD82BA50-1B38-48DC-9BC7-E3BD8905C563}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="lightning game walking sounds_020" ID="{AE2F6982-4450-4AA4-9A7C-AE514021A429}" ShortID="688274639">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9970F0C1-1470-4763-BB71-040D14275AB6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8AB3BB3-46E6-4BED-AE44-E9B685026A80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="lightning game walking sounds_020" ID="{8D4F8CF6-B741-4F76-9A8C-C9488A1DB900}">
+									<Language>SFX</Language>
+									<AudioFile>lightning game walking sounds_020.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="430406083"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="lightning game walking sounds_020" ID="{8D4F8CF6-B741-4F76-9A8C-C9488A1DB900}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="lightning game walking sounds_012" ID="{3ECDFABB-D130-4C7C-919D-62FC601E5A57}" ShortID="751327157">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9970F0C1-1470-4763-BB71-040D14275AB6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8AB3BB3-46E6-4BED-AE44-E9B685026A80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="lightning game walking sounds_012" ID="{3226D3C8-0227-443A-A10F-9464FC9E1479}">
+									<Language>SFX</Language>
+									<AudioFile>lightning game walking sounds_012.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="998021810"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="lightning game walking sounds_012" ID="{3226D3C8-0227-443A-A10F-9464FC9E1479}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="lightning game walking sounds_001" ID="{FADEEFA6-ECFD-4847-BCE6-D4C1DFB2A4D4}" ShortID="127093340">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9970F0C1-1470-4763-BB71-040D14275AB6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8AB3BB3-46E6-4BED-AE44-E9B685026A80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="lightning game walking sounds_001" ID="{0D909594-6855-4431-93E7-55B64FA6F7B3}">
+									<Language>SFX</Language>
+									<AudioFile>lightning game walking sounds_001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="477044366"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="lightning game walking sounds_001" ID="{0D909594-6855-4431-93E7-55B64FA6F7B3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="lightning game walking sounds_013" ID="{C733C876-EDB7-4109-9BB3-3AA61F4E45D8}" ShortID="1066205158">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9970F0C1-1470-4763-BB71-040D14275AB6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8AB3BB3-46E6-4BED-AE44-E9B685026A80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="lightning game walking sounds_013" ID="{1A471C55-5AEB-4A36-865C-F8FECF250F10}">
+									<Language>SFX</Language>
+									<AudioFile>lightning game walking sounds_013.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="956345028"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="lightning game walking sounds_013" ID="{1A471C55-5AEB-4A36-865C-F8FECF250F10}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="lightning game walking sounds_017" ID="{6B167FB9-30DA-4362-9506-CE55D002AE4B}" ShortID="438420939">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9970F0C1-1470-4763-BB71-040D14275AB6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8AB3BB3-46E6-4BED-AE44-E9B685026A80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="lightning game walking sounds_017" ID="{3A0A81D0-948C-4B25-A049-A116CD14B688}">
+									<Language>SFX</Language>
+									<AudioFile>lightning game walking sounds_017.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="175549776"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="lightning game walking sounds_017" ID="{3A0A81D0-948C-4B25-A049-A116CD14B688}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="lightning game walking sounds_021" ID="{EB00D004-7CB5-4C80-894D-85F766D3D056}" ShortID="726665611">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9970F0C1-1470-4763-BB71-040D14275AB6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8AB3BB3-46E6-4BED-AE44-E9B685026A80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="lightning game walking sounds_021" ID="{208AC453-6D66-402D-A926-E920CA3F7E1B}">
+									<Language>SFX</Language>
+									<AudioFile>lightning game walking sounds_021.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="479579783"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="lightning game walking sounds_021" ID="{208AC453-6D66-402D-A926-E920CA3F7E1B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="lightning game walking sounds_019" ID="{367D45F5-AEB8-4E61-9FA3-964686F01417}" ShortID="763408635">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9970F0C1-1470-4763-BB71-040D14275AB6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8AB3BB3-46E6-4BED-AE44-E9B685026A80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="lightning game walking sounds_019" ID="{0B13C33D-DC0F-4943-9B58-CD4BAC26C94F}">
+									<Language>SFX</Language>
+									<AudioFile>lightning game walking sounds_019.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1047822637"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="lightning game walking sounds_019" ID="{0B13C33D-DC0F-4943-9B58-CD4BAC26C94F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="lightning game walking sounds_016" ID="{A5D16685-BE03-4355-9416-0C7CA4F8B383}" ShortID="906278734">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9970F0C1-1470-4763-BB71-040D14275AB6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8AB3BB3-46E6-4BED-AE44-E9B685026A80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="lightning game walking sounds_016" ID="{6D0C12FD-6892-4F2D-8C64-64F37C9607E9}">
+									<Language>SFX</Language>
+									<AudioFile>lightning game walking sounds_016.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="859052721"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="lightning game walking sounds_016" ID="{6D0C12FD-6892-4F2D-8C64-64F37C9607E9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="lightning game walking sounds_015" ID="{C3B102C8-0A64-47E6-ADD4-83CEE4104D87}" ShortID="198529828">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9970F0C1-1470-4763-BB71-040D14275AB6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8AB3BB3-46E6-4BED-AE44-E9B685026A80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="lightning game walking sounds_015" ID="{4BD09D3A-7CFA-4A6C-9BE5-30F00C6098EC}">
+									<Language>SFX</Language>
+									<AudioFile>lightning game walking sounds_015.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1024316478"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="lightning game walking sounds_015" ID="{4BD09D3A-7CFA-4A6C-9BE5-30F00C6098EC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="lightning game walking sounds_024" ID="{E156EC3F-3A5B-4B67-BE22-1D1E73D9E012}" ShortID="782121316">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9970F0C1-1470-4763-BB71-040D14275AB6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8AB3BB3-46E6-4BED-AE44-E9B685026A80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="lightning game walking sounds_024" ID="{97FB8E6C-8933-4B00-ABCA-D57ACF7689B6}">
+									<Language>SFX</Language>
+									<AudioFile>lightning game walking sounds_024.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1054900022"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="lightning game walking sounds_024" ID="{97FB8E6C-8933-4B00-ABCA-D57ACF7689B6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="lightning game walking sounds_025" ID="{69F9675B-2203-4E06-8309-F9675446B8F6}" ShortID="432087493">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9970F0C1-1470-4763-BB71-040D14275AB6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8AB3BB3-46E6-4BED-AE44-E9B685026A80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="lightning game walking sounds_025" ID="{A84C88AD-4292-450E-987D-CAB6EB692C18}">
+									<Language>SFX</Language>
+									<AudioFile>lightning game walking sounds_025.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="446893896"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="lightning game walking sounds_025" ID="{A84C88AD-4292-450E-987D-CAB6EB692C18}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="lightning game walking sounds_026" ID="{FC244236-AB6A-450A-ABA8-8E774108FD10}" ShortID="113768244">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9970F0C1-1470-4763-BB71-040D14275AB6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8AB3BB3-46E6-4BED-AE44-E9B685026A80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="lightning game walking sounds_026" ID="{72FA62F5-A661-48E0-833D-67D7A43D5376}">
+									<Language>SFX</Language>
+									<AudioFile>lightning game walking sounds_026.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="146604059"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="lightning game walking sounds_026" ID="{72FA62F5-A661-48E0-833D-67D7A43D5376}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="lightning game walking sounds_014" ID="{AC895332-A109-4B86-ABC1-F40213C58C9E}" ShortID="946857362">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9970F0C1-1470-4763-BB71-040D14275AB6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8AB3BB3-46E6-4BED-AE44-E9B685026A80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="lightning game walking sounds_014" ID="{A5C22743-263C-437B-995F-1C1C2AA79DAA}">
+									<Language>SFX</Language>
+									<AudioFile>lightning game walking sounds_014.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="21040142"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="lightning game walking sounds_014" ID="{A5C22743-263C-437B-995F-1C1C2AA79DAA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="lightning game walking sounds_018" ID="{07D1D353-1A45-4907-995B-67EDE4BC224A}" ShortID="892457393">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9970F0C1-1470-4763-BB71-040D14275AB6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8AB3BB3-46E6-4BED-AE44-E9B685026A80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="lightning game walking sounds_018" ID="{BA97644F-BEE0-4E8E-8514-94C8B90B6DDC}">
+									<Language>SFX</Language>
+									<AudioFile>lightning game walking sounds_018.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="287978437"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="lightning game walking sounds_018" ID="{BA97644F-BEE0-4E8E-8514-94C8B90B6DDC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="lightning game walking sounds_009" ID="{417FCB29-1AE2-4C8A-ABB7-3750C84C9BCB}" ShortID="907951106">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9970F0C1-1470-4763-BB71-040D14275AB6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8AB3BB3-46E6-4BED-AE44-E9B685026A80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="lightning game walking sounds_009" ID="{6DA52ABA-6A83-4C8E-ABDC-0A05B6E84713}">
+									<Language>SFX</Language>
+									<AudioFile>lightning game walking sounds_009.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="691634900"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="lightning game walking sounds_009" ID="{6DA52ABA-6A83-4C8E-ABDC-0A05B6E84713}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="lightning game walking sounds_029" ID="{876809C5-A5DF-4802-8C34-CB907DCC575C}" ShortID="847653816">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9970F0C1-1470-4763-BB71-040D14275AB6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8AB3BB3-46E6-4BED-AE44-E9B685026A80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="lightning game walking sounds_029" ID="{42BD3473-C66E-40B0-8341-863228F3BAC6}">
+									<Language>SFX</Language>
+									<AudioFile>lightning game walking sounds_029.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="295144768"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="lightning game walking sounds_029" ID="{42BD3473-C66E-40B0-8341-863228F3BAC6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="lightning game walking sounds_031" ID="{C0A895EE-A629-4C43-B328-57A35B939446}" ShortID="801624586">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9970F0C1-1470-4763-BB71-040D14275AB6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8AB3BB3-46E6-4BED-AE44-E9B685026A80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="lightning game walking sounds_031" ID="{B36A181B-23AF-49F0-AC00-89BE0AEA189E}">
+									<Language>SFX</Language>
+									<AudioFile>lightning game walking sounds_031.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1067172804"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="lightning game walking sounds_031" ID="{B36A181B-23AF-49F0-AC00-89BE0AEA189E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="lightning game walking sounds_030" ID="{4CC7378E-37EC-423E-BE65-A0256F6B0E1C}" ShortID="316915503">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9970F0C1-1470-4763-BB71-040D14275AB6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8AB3BB3-46E6-4BED-AE44-E9B685026A80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="lightning game walking sounds_030" ID="{0E924E6C-7EDA-4ACF-90A7-3832BEEAB4FB}">
+									<Language>SFX</Language>
+									<AudioFile>lightning game walking sounds_030.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="132989803"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="lightning game walking sounds_030" ID="{0E924E6C-7EDA-4ACF-90A7-3832BEEAB4FB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="lightning game walking sounds_027" ID="{657AFAEA-B116-4EB0-B263-7388C8D8B22F}" ShortID="957004775">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9970F0C1-1470-4763-BB71-040D14275AB6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8AB3BB3-46E6-4BED-AE44-E9B685026A80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="lightning game walking sounds_027" ID="{9A6B1712-8846-4EE4-963A-D49F6300FBBA}">
+									<Language>SFX</Language>
+									<AudioFile>lightning game walking sounds_027.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="842054531"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="lightning game walking sounds_027" ID="{9A6B1712-8846-4EE4-963A-D49F6300FBBA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="lightning game walking sounds_028" ID="{3263CCA4-B5A9-4897-AD33-71D3B41EFCED}" ShortID="530267749">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9970F0C1-1470-4763-BB71-040D14275AB6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8AB3BB3-46E6-4BED-AE44-E9B685026A80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="lightning game walking sounds_028" ID="{4E22889D-4EAA-4018-9F43-01CA481CA979}">
+									<Language>SFX</Language>
+									<AudioFile>lightning game walking sounds_028.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="652476526"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="lightning game walking sounds_028" ID="{4E22889D-4EAA-4018-9F43-01CA481CA979}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

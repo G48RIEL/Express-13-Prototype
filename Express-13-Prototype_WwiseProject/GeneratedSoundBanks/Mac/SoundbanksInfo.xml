@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="154">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{89C218AE-9E0B-8562-B379-0ABAC724E516}">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{D3DEDA98-B9EE-443B-87BD-BD1CFED65FC5}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{95E45397-A2FE-4425-94EF-F5CEA3E25765}" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="2385628198" Type="Event" GUID="{0327DF95-6AB6-4A6D-A0BE-66216CAFBAAE}" Language="SFX" Hash="{2B742567-5342-9375-71F0-B99820F223F2}">
+			<ObjectPath>footsteps</ObjectPath>
+			<ShortName>footsteps</ShortName>
+			<Path>Event/footsteps.bnk</Path>
+			<Media>
+				<File Id="6587319" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lightning game walking sounds_004.wav</ShortName>
+					<Path>Media/6587319.wem</Path>
+					<CachePath>D2/{D2CE41BD-99C2-E967-FC82-7034A1E1DE77}.wem</CachePath>
+				</File>
+				<File Id="14853657" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lightning game walking sounds_011.wav</ShortName>
+					<Path>Media/14853657.wem</Path>
+					<CachePath>00/{00CF5093-417D-0EA7-63AB-16C2F0225BB1}.wem</CachePath>
+				</File>
+				<File Id="21040142" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lightning game walking sounds_014.wav</ShortName>
+					<Path>Media/21040142.wem</Path>
+					<CachePath>87/{87FA7D21-3628-1709-6F0E-6C32D4BAC052}.wem</CachePath>
+				</File>
+				<File Id="132989803" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lightning game walking sounds_030.wav</ShortName>
+					<Path>Media/132989803.wem</Path>
+					<CachePath>75/{75271336-86F2-F910-7AE7-365225F07E2C}.wem</CachePath>
+				</File>
+				<File Id="146604059" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lightning game walking sounds_026.wav</ShortName>
+					<Path>Media/146604059.wem</Path>
+					<CachePath>A9/{A98FC741-F96A-9ECC-671C-1B09C4F4AA11}.wem</CachePath>
+				</File>
+				<File Id="175549776" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lightning game walking sounds_017.wav</ShortName>
+					<Path>Media/175549776.wem</Path>
+					<CachePath>99/{9926CEC9-069B-8C4C-543D-FB509FC5B86A}.wem</CachePath>
+				</File>
+				<File Id="203962740" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lightning game walking sounds_003.wav</ShortName>
+					<Path>Media/203962740.wem</Path>
+					<CachePath>46/{46F22525-8E50-232E-C7BE-27E586455B9C}.wem</CachePath>
+				</File>
+				<File Id="205507379" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lightning game walking sounds_010.wav</ShortName>
+					<Path>Media/205507379.wem</Path>
+					<CachePath>76/{76D86DC2-F897-342F-8718-5212B51C425F}.wem</CachePath>
+				</File>
+				<File Id="221913599" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lightning game walking sounds_005.wav</ShortName>
+					<Path>Media/221913599.wem</Path>
+					<CachePath>2C/{2C8D8D4F-520D-C5B1-D42D-3668385FA91A}.wem</CachePath>
+				</File>
+				<File Id="287978437" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lightning game walking sounds_018.wav</ShortName>
+					<Path>Media/287978437.wem</Path>
+					<CachePath>DA/{DAD0EEC9-FEB2-5047-1224-5F5C04A36EB0}.wem</CachePath>
+				</File>
+				<File Id="295144768" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lightning game walking sounds_029.wav</ShortName>
+					<Path>Media/295144768.wem</Path>
+					<CachePath>F1/{F161CC48-4DE0-19A7-961F-8E30D8C9B2A5}.wem</CachePath>
+				</File>
+				<File Id="386694934" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lightning game walking sounds_002.wav</ShortName>
+					<Path>Media/386694934.wem</Path>
+					<CachePath>9B/{9B82D0E1-DDD7-4259-EDD2-44C1A4A15769}.wem</CachePath>
+				</File>
+				<File Id="430406083" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lightning game walking sounds_020.wav</ShortName>
+					<Path>Media/430406083.wem</Path>
+					<CachePath>AA/{AA04B282-F76A-5966-3026-F950EE3E4F85}.wem</CachePath>
+				</File>
+				<File Id="446893896" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lightning game walking sounds_025.wav</ShortName>
+					<Path>Media/446893896.wem</Path>
+					<CachePath>77/{77CE85C7-ACFF-7F77-F824-E1B5EF361EC7}.wem</CachePath>
+				</File>
+				<File Id="477044366" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lightning game walking sounds_001.wav</ShortName>
+					<Path>Media/477044366.wem</Path>
+					<CachePath>B2/{B2A18F13-5B02-D910-3059-644B4B7E3C65}.wem</CachePath>
+				</File>
+				<File Id="479579783" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lightning game walking sounds_021.wav</ShortName>
+					<Path>Media/479579783.wem</Path>
+					<CachePath>29/{2907BE14-D244-8AEB-71AC-5E83A9A65335}.wem</CachePath>
+				</File>
+				<File Id="578894532" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lightning game walking sounds_022.wav</ShortName>
+					<Path>Media/578894532.wem</Path>
+					<CachePath>56/{5686BEAE-F9CA-8575-58EC-4302DE7E8E18}.wem</CachePath>
+				</File>
+				<File Id="652476526" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lightning game walking sounds_028.wav</ShortName>
+					<Path>Media/652476526.wem</Path>
+					<CachePath>A3/{A306726C-67FA-E308-7659-9444DF4FC106}.wem</CachePath>
+				</File>
+				<File Id="683928438" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lightning game walking sounds_008.wav</ShortName>
+					<Path>Media/683928438.wem</Path>
+					<CachePath>CD/{CD5F731F-CCD5-D840-490F-AD178253826B}.wem</CachePath>
+				</File>
+				<File Id="691589187" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lightning game walking sounds_023.wav</ShortName>
+					<Path>Media/691589187.wem</Path>
+					<CachePath>1A/{1A288DE4-8945-763A-322B-533B5B45F399}.wem</CachePath>
+				</File>
+				<File Id="691634900" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lightning game walking sounds_009.wav</ShortName>
+					<Path>Media/691634900.wem</Path>
+					<CachePath>EF/{EFE57047-9C46-1661-8A1E-873393550B90}.wem</CachePath>
+				</File>
+				<File Id="842054531" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lightning game walking sounds_027.wav</ShortName>
+					<Path>Media/842054531.wem</Path>
+					<CachePath>DE/{DEDA6E4A-84BB-757C-BD7D-DBA88F08A8C7}.wem</CachePath>
+				</File>
+				<File Id="859052721" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lightning game walking sounds_016.wav</ShortName>
+					<Path>Media/859052721.wem</Path>
+					<CachePath>12/{123334F4-5FDD-C6E1-0708-EDEEBCDB120F}.wem</CachePath>
+				</File>
+				<File Id="882717845" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lightning game walking sounds_007.wav</ShortName>
+					<Path>Media/882717845.wem</Path>
+					<CachePath>8B/{8B5364A2-D08F-FA21-6DF3-FB8AEA35ACD1}.wem</CachePath>
+				</File>
+				<File Id="956345028" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lightning game walking sounds_013.wav</ShortName>
+					<Path>Media/956345028.wem</Path>
+					<CachePath>5C/{5CE2AF5D-7417-3720-302E-54934C198435}.wem</CachePath>
+				</File>
+				<File Id="995057769" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lightning game walking sounds_006.wav</ShortName>
+					<Path>Media/995057769.wem</Path>
+					<CachePath>72/{72AB8B98-9E2F-BABB-2E88-BF3499C74B35}.wem</CachePath>
+				</File>
+				<File Id="998021810" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lightning game walking sounds_012.wav</ShortName>
+					<Path>Media/998021810.wem</Path>
+					<CachePath>79/{793948D9-E6F0-4C61-A9A5-EB3F6CC6BA06}.wem</CachePath>
+				</File>
+				<File Id="1024316478" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lightning game walking sounds_015.wav</ShortName>
+					<Path>Media/1024316478.wem</Path>
+					<CachePath>92/{92D9C4F0-A4D7-BFF8-07A3-A6B535F8DE4B}.wem</CachePath>
+				</File>
+				<File Id="1047822637" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lightning game walking sounds_019.wav</ShortName>
+					<Path>Media/1047822637.wem</Path>
+					<CachePath>C0/{C02FBFC8-55DE-D9FB-97BC-632EB291D905}.wem</CachePath>
+				</File>
+				<File Id="1054900022" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lightning game walking sounds_024.wav</ShortName>
+					<Path>Media/1054900022.wem</Path>
+					<CachePath>B7/{B72CDA47-4B8C-027D-BF2A-F4533CA475D0}.wem</CachePath>
+				</File>
+				<File Id="1067172804" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lightning game walking sounds_031.wav</ShortName>
+					<Path>Media/1067172804.wem</Path>
+					<CachePath>3A/{3A6196BA-E0A9-40C1-2366-F4410125A1DA}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2385628198" Name="footsteps" ObjectPath="\Events\Default Work Unit\footsteps" GUID="{0327DF95-6AB6-4A6D-A0BE-66216CAFBAAE}" DurationType="OneShot" DurationMin="0.41200325" DurationMax="0.7879977">
+					<MediaRefs>
+						<MediaRef Id="6587319"/>
+						<MediaRef Id="14853657"/>
+						<MediaRef Id="21040142"/>
+						<MediaRef Id="132989803"/>
+						<MediaRef Id="146604059"/>
+						<MediaRef Id="175549776"/>
+						<MediaRef Id="203962740"/>
+						<MediaRef Id="205507379"/>
+						<MediaRef Id="221913599"/>
+						<MediaRef Id="287978437"/>
+						<MediaRef Id="295144768"/>
+						<MediaRef Id="386694934"/>
+						<MediaRef Id="430406083"/>
+						<MediaRef Id="446893896"/>
+						<MediaRef Id="477044366"/>
+						<MediaRef Id="479579783"/>
+						<MediaRef Id="578894532"/>
+						<MediaRef Id="652476526"/>
+						<MediaRef Id="683928438"/>
+						<MediaRef Id="691589187"/>
+						<MediaRef Id="691634900"/>
+						<MediaRef Id="842054531"/>
+						<MediaRef Id="859052721"/>
+						<MediaRef Id="882717845"/>
+						<MediaRef Id="956345028"/>
+						<MediaRef Id="995057769"/>
+						<MediaRef Id="998021810"/>
+						<MediaRef Id="1024316478"/>
+						<MediaRef Id="1047822637"/>
+						<MediaRef Id="1054900022"/>
+						<MediaRef Id="1067172804"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{7D8E1269-2713-ABD9-41AC-F834515ACB6B}</FileHash>
+</SoundBanksInfo>
