@@ -1,8 +1,27 @@
-2026/03/11-00:04:14.617 42a4 Creating DB D:/UnrealProjects/DES 503/PROTOTYPE/Express-13-Prototype/Saved/webcache_4430\Local Storage\leveldb since it was missing.
-2026/03/11-00:04:14.629 42a4 Reusing MANIFEST D:/UnrealProjects/DES 503/PROTOTYPE/Express-13-Prototype/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
-2026/03/11-00:20:53.955 7a78 Level-0 table #5: started
-2026/03/11-00:20:53.962 7a78 Level-0 table #5: 68535 bytes OK
-2026/03/11-00:20:53.965 7a78 Delete type=0 #3
-2026/03/11-00:23:00.188 7848 Level-0 table #7: started
-2026/03/11-00:23:00.193 7848 Level-0 table #7: 62470 bytes OK
-2026/03/11-00:23:00.196 7848 Delete type=0 #4
+2026/05/02-21:03:14.912 84c0 Reusing MANIFEST D:/UnrealProjects/DES 503/PROTOTYPE/Express-13-Prototype/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2026/05/02-21:03:14.918 84c0 Recovering log #14
+2026/05/02-21:03:14.919 84c0 Reusing old log D:/UnrealProjects/DES 503/PROTOTYPE/Express-13-Prototype/Saved/webcache_4430\Local Storage\leveldb/000014.log 
+2026/05/02-22:00:33.971 3100 Level-0 table #19: started
+2026/05/02-22:00:33.979 3100 Level-0 table #19: 80260 bytes OK
+2026/05/02-22:00:33.983 3100 Delete type=0 #14
+2026/05/02-22:00:57.494 4748 Level-0 table #21: started
+2026/05/02-22:00:57.502 4748 Level-0 table #21: 67391 bytes OK
+2026/05/02-22:00:57.505 4748 Delete type=0 #18
+2026/05/02-22:01:25.017 3100 Level-0 table #23: started
+2026/05/02-22:01:25.025 3100 Level-0 table #23: 73486 bytes OK
+2026/05/02-22:01:25.028 3100 Delete type=0 #20
+2026/05/02-22:03:24.656 4950 Level-0 table #25: started
+2026/05/02-22:03:24.663 4950 Level-0 table #25: 78182 bytes OK
+2026/05/02-22:03:24.666 4950 Delete type=0 #22
+2026/05/02-22:03:24.667 4950 Compacting 4@0 + 1@1 files
+2026/05/02-22:03:24.672 4950 Generated table #26@0: 4 keys, 26320 bytes
+2026/05/02-22:03:24.672 4950 Compacted 4@0 + 1@1 files => 26320 bytes
+2026/05/02-22:03:24.674 4950 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/02-22:03:24.675 4950 Delete type=2 #16
+2026/05/02-22:03:24.675 4950 Delete type=2 #19
+2026/05/02-22:03:24.675 4950 Delete type=2 #21
+2026/05/02-22:03:24.675 4950 Delete type=2 #23
+2026/05/02-22:03:24.675 4950 Delete type=2 #25
+2026/05/02-22:04:36.120 3100 Level-0 table #28: started
+2026/05/02-22:04:36.126 3100 Level-0 table #28: 79030 bytes OK
+2026/05/02-22:04:36.129 3100 Delete type=0 #24
